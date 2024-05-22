@@ -6,6 +6,14 @@ app_email = "akashnerella@gmail.com"
 app_license = "mit"
 # required_apps = []
 
+required_apps = ["frappe/erpnext"]
+
+doctype_js = {
+     
+    "Item":"public/js/my_button.js"
+}
+
+
 # Includes in <head>
 # ------------------
 
